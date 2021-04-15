@@ -1,27 +1,20 @@
 {
-  "name": "17-nosql-workout-tracker",
+  "name": "workout-tracker-master",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tonyrpark/17-NoSQL-Workout-Tracker.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tonyrpark/17-NoSQL-Workout-Tracker/issues"
-  },
-  "homepage": "https://github.com/tonyrpark/17-NoSQL-Workout-Tracker#readme",
   "dependencies": {
-    "compression": "^1.7.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongodb": "^3.6.6",
-    "mongoose": "^5.12.3",
-    "morgan": "^1.10.0"
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
   }
 }
